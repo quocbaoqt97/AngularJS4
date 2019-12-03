@@ -6,8 +6,10 @@
     <script src = "app.js"></script>
     <title>ANGULAR PROJECT</title>
   </head>
-  <body>
-    <h1>This is week 2 angular project</h1>
-
+  <body ng-controller="webappcontroller">
+    <h1>This is week 2 angular project!</h1>
+    <input type="text" ng-model="textt" ng-blur="blur()">
+    <div> Message:{{textt}}<br>
+          Result: {{textt_1}}</div>
   </body>
 </html>
